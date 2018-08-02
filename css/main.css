@@ -15,8 +15,7 @@
      Author's custom styles
     ========================================================================== */
   
-  /* Global
-     ================================================================ */
+  /* Global =========================== */
   body {
     font-family: "Lato", sans-serif;
     font-size: 18px;
@@ -31,15 +30,12 @@
     align-items: space-between;
   }
   
-  /* Layout
-     ================================================================ */
+  /* Layout ============================ */
   #main {
-    /* float: left; */
     width: 66.66667%;
   }
   
   #sidebar {
-    /* float: right; */
     width: 29%;
     margin-top: 108px;
     color: #888;
@@ -48,10 +44,6 @@
   .wrapper {
     width: 1080px;
     margin: 0 auto;
-    /* display: flex; */
-    /* flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start; */
   }
   
   img {
@@ -68,8 +60,7 @@
   }
 
   
-  /* Headings
-     ================================================================ */
+  /* Headings ============================ */
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
@@ -103,10 +94,7 @@
     color: #ccc;
   }
   
-  
-  
-  /* Text Styles
-     ================================================================ */
+  /* Text Styles ========================= */
   .more {
     font-weight: bold;
     text-align: right;
@@ -122,30 +110,15 @@
     color: #caa55b;
   }
   
-  
   p {
     margin: 27px 0 0;
     padding: 0;
   }
   
-  
-  
-  
-  /* Header
-     ================================================================ */
-
-  /* header {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  } */
+  /* Header ========================= */
 
   header nav {
     margin: 0 auto;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start; */
   }
 
   header h1 {
@@ -161,35 +134,24 @@
   }
   
   header nav ul {
-    /* margin: 0;
-    padding: 0; */
     list-style: none;
-    display: flex;
-    /* justify-content: space-between; */
-    /* align-items: flex-start; */ 
+    display: flex; 
   }
   
-  /* Footer
-     ================================================================ */
+  /* Footer ========================= */
   footer {
     clear: both;
     color: #bbb;
   }
   
   
-  /* Navigation
-     ================================================================ */
-
-  /* nav {
-    display: flex;
-  } */
+  /* Navigation =========================== */
 
   ul {
     padding: 0;
   }
   
   header nav ul li {
-    /* float: left; */
     width: 16.66667%;
     margin: 0;
     padding: 0;
@@ -211,13 +173,9 @@
   }
   
   
-  /* Articles
-     ================================================================ */
+  /* Articles ========================== */
   article {
     margin: 54px 0;
-    /* display: flex; */
-    justify-content: baseline;
-    align-items: flex-start;
   }
   
   article p:first-of-type:first-letter {
@@ -234,8 +192,7 @@
     margin-top: 27px;
   }
   
-  /* Sidebar
-     ================================================================ */
+  /* Sidebar ======================== */
   .module {
     padding: 27px 0;
     border-bottom: 1px solid #ddd;
